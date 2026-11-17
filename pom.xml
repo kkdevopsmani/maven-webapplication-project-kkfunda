@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://13.203.198.93:8081/repository/airtel_snapshot/</url>
+	      <url>http://13.201.77.110:8081/repository/airtel_snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
