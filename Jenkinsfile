@@ -27,12 +27,13 @@ pipeline {
 		stage('Tomcat Deploy'){
 			steps{
 				sh """
-				curl -u admin:password --upload-file /var/lib/jenkins/workspace/airtel_pipeline_way/target/maven-web-application.war \
-"http://3.110.104.66:8080/manager/text/deploy?path=/maven-web-application&update=true"
-"""
+				curl -u "admin:password" \
+				--upload-file /var/lib/jenkins/workspace/airtel_pipeline_way/target/maven-web-application.war \
+                "http://3.110.104.66:8080/manager/text/deploy?path=/maven-web-application&update=true"
+                """
 			}
 		}
-			  }
-			  }
+	}
+}
 			  
 			  
