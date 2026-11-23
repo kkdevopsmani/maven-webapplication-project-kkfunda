@@ -5,7 +5,7 @@
 	<groupId>com.kk</groupId>
 	<artifactId>maven-web-application-kkfunda</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://15.252.107.73:8081/repository/airtel_snapshot//</url>
+	      <url>http://13.233.154.20:8081/repository/airtel_snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
